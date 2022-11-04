@@ -5,12 +5,22 @@
 }
 
 /*Navbar*/
-.navbar {
-    background-color: white;
+.nav {
     position: absolute;
     left: 28%
 }
 
+.nav a:visited {
+    color: black;
+}
+
+.nav a:hover {
+    color: blue;
+}
+
+.nav-link {
+    color: black;
+}
 
 .nav-item {
     margin: 0 18px;
