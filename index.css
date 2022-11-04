@@ -5,4 +5,13 @@
 }
 
 /*Navbar*/
-.nav
+.navbar {
+    background-color: white;
+    position: absolute;
+    left: 28%
+}
+
+
+.nav-item {
+    margin: 0 18px;
+}
