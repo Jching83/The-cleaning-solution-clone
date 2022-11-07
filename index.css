@@ -1,13 +1,32 @@
+body {
+    background-color: rgb(241, 241, 241);
+
+}
+
+/*Main page image*/
+.index-img {
+    position: absolute;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
 .cleaning {
     width: 7%;
     position: absolute;
-    left: 3%;
+    left: 2%;
 }
 
 /*Navbar*/
 .nav {
     position: absolute;
-    left: 28%
+    left: 15%;
+    margin-top: auto;
 }
 
 .nav a:visited {
@@ -22,6 +41,21 @@
     color: black;
 }
 
-.nav-item {
-    margin: 0 18px;
+/*headline*/
+.headline {
+    position: absolute;
+    margin: 0 0 0 14%;
+    padding: 15% 0 0 0;
+    font-weight: bolder;
+    font-size: 50px;
+
+}
+
+.headline2 {
+    position: absolute;
+    margin: 0 0 0 14%;
+    padding: 18% 0 0 0;
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgba(7, 166, 7, 0.999);
 }
