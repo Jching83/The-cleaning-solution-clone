@@ -15,7 +15,7 @@ img {
 }
 
 
-
+/*Company Logo*/
 .cleaning {
     width: 7%;
     position: absolute;
@@ -54,8 +54,39 @@ img {
 .headline2 {
     position: absolute;
     margin: 0 0 0 14%;
-    padding: 18% 0 0 0;
+    padding: 19% 0 0 0;
     font-weight: bolder;
     font-size: 50px;
-    color: rgba(7, 166, 7, 0.999);
+    color: #07a607ff;
+}
+
+.heading1 {
+    position: absolute;
+    margin: 0 0 0 14%;
+    padding: 25% 0 0 0;
+}
+
+.heading2 {
+    position: absolute;
+    margin: 0 0 0 14%;
+    padding: 27% 0 0 0;
+    font-weight: bold;
+
+}
+
+/*Quote Button*/
+.quote {
+    position: absolute;
+    margin: 31% 0 0 14%;
+    background-color: #07a607ff;
+    font-weight: bold;
+    color: white;
+}
+
+.quote2 {
+    position: absolute;
+    margin: 2% 0 0 90%;
+    background-color: #07a607ff;
+    font-weight: bold;
+    color: white;
 }
