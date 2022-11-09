@@ -11,7 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
     <!-- Style Sheets -->
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="CSS/index.css" />
 
     <!-- Font Awesome -->
     <script src="https://use.fontawesome.com/releases/v6.2.0/js/all.js"></script>
@@ -28,45 +28,39 @@
 </head>
 
 <body>
-    <script src="index.js" charset="utf-8"></script>
 
-    <section class="background" id="title">
-        <!--body image-->
-        <div class="index-img">
-            <img src="D:\Playground\Web\theCleaningSolution\bg2.png" alt="main-img">
-        </div>
+    <!--body image-->
+    <div class="index-img">
+        <img src="D:\Playground\Web\theCleaningSolution\IMAGES\bg2.png" alt="main-img">
+    </div>
 
-        <!--Company Logo-->
-        <div class="main-logo">
-            <img class="cleaning" src="D:\Playground\Web\theCleaningSolution\final-color.png" alt="logo" />
-        </div>
+    <!--Company Logo-->
+    <div class="main-logo">
+        <img class="cleaning" src="D:\Playground\Web\theCleaningSolution\IMAGES\final-color.png" alt="logo" />
+    </div>
 
-        <!-- Nav Bar -->
-        <ul class="nav">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">HOME</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">SERVICES</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT</a>
-            </li>
-        </ul>
-    </section>
 
 
     <!--Main-->
     <div class="headline">
-        <p>House cleaning.</p>
+        <p class="headline1">House cleaning.</p>
+        <p class="headline2">Redefined.</p>
     </div>
-
-    <div class="headline2">
-        <p>Redefined.</p>
-    </div>
-
     <h5 class="heading1">We clean your house, so you can</h5>
     <h5 class="heading2">focus on family.</h5>
+
+    <!-- Nav Bar section won't function properly when element is placed above "Main section"-->
+    <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="service.html">SERVICES</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="about.html">ABOUT</a>
+        </li>
+    </ul>
 
     <!--Quote button-->
     <a href="quote.html"><button class="quote" type="button">Quick Quote &nbsp;&nbsp;&nbsp;&nbsp;<i
@@ -75,6 +69,7 @@
                 class="fa-solid fa-arrow-right"></i></button></a>
 
 
+    <script src="DOM/index.js" charset="utf-8"></script>
 </body>
 
 </html>
